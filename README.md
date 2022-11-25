@@ -8,7 +8,7 @@ Para este proyecto se utilizó:
 1. HTML
 2. CSS
 3. Javascript
-   Enlace a la pagina: https://stevenr97.github.io/web_project_3_esp/
+   Enlace a la pagina: https://stevenr97.github.io/web_project_4_esp/
 
 **Planes Futuros para el proyecto**
 
