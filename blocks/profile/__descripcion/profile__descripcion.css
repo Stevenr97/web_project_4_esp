@@ -1,0 +1,14 @@
+.profile__descripcion {
+  margin: 0;
+  color: white;
+  text-align: left;
+  font-size: 22px;
+  grid-area: descripcion;
+  align-self: flex-start;
+}
+@media screen and (max-width: 879px) {
+  .profile__descripcion {
+    font-size: 14px;
+    text-align: center;
+  }
+}

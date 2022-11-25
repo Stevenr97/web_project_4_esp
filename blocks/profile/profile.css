@@ -1,0 +1,20 @@
+.profile {
+  margin: 42px 19px 36px 19px;
+  text-align: center;
+  display: grid;
+  max-width: 880px;
+  height: auto;
+  align-items: center;
+  grid-template-columns: 150px auto 150px;
+  grid-template-rows: auto;
+  grid-template-areas: "image info create_button";
+}
+@media screen and (max-width: 879px) {
+  .profile {
+    margin: 42px auto 36px auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "image" "info" "create_button";
+    width: fit-content;
+    min-width: 282px;
+  }
+}

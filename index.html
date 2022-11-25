@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Alrededor de los EE.UU</title>
+  </head>
+  <body class="root">
+    <header class="header">
+      <img class="header__logo" src="./images/Vector.png" alt="Logo Around" />
+      <hr size="1px" color="#545454" width="100%" />
+    </header>
+
+    <section class="profile">
+      <img
+        class="profile__image"
+        src="./images/avatar.jpg"
+        alt="Imagen de Usuario"
+      />
+      <div class="profile__info">
+        <h4 class="profile__name">Jacques Cousteau</h4>
+        <button class="profile__edit-button" type="button">
+          <svg
+            width="10"
+            height="10"
+            viewBox="0 0 10 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 1.32827L2.60377 8.7666L1.28302 7.41936L8.66038 0L10 1.32827ZM0 10L1.96226 9.41177L0.584906 8.08349L0 10Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+        <h4 class="profile__descripcion">Explorador</h4>
+      </div>
+      <button class="profile__create-button" type="button">
+        <svg
+          width="22"
+          height="22"
+          viewBox="0 0 22 22"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 9.77778H12.2222V0H9.77778V9.77778H0V12.2222H9.77778V22H12.2222V12.2222H22V9.77778Z"
+            fill="white"
+          />
+        </svg>
+      </button>
+      <div class="popup">
+        <svg
+          class="popup__close"
+          width="22"
+          height="22"
+          viewBox="0 0 22 22"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.171 0.786237L11 8.95725L2.829 0.786236L0.786246 2.82899L8.95726 11L0.786246 19.171L2.829 21.2138L11 13.0428L19.171 21.2138L21.2138 19.171L13.0428 11L21.2138 2.82899L19.171 0.786237Z"
+            fill="white"
+          />
+        </svg>
+        <div class="popup__container">
+          <h3 class="popup__title">Editar Perfil</h3>
+          <form class="popup__form" action="">
+            <input
+              class="popup__info"
+              id="nombre"
+              type="text"
+              placeholder="Nombre"
+            />
+            <input
+              class="popup__info"
+              id="acerca"
+              type="text"
+              placeholder="Acerca de mi"
+            />
+            <input class="popup__button" type="button" value="Guardar" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="elements">
+      <div class="element">
+        <img
+          class="element__image"
+          src="./images/Lago di Braies.png"
+          alt="asdkma"
+        />
+        <h3 class="element__name">
+          Valle de Yosemite
+          <svg
+            width="21"
+            height="19"
+            class="element__heart"
+            viewBox="0 0 21 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.3764 9.78586C21.5412 7.54338 21.5412 3.90213 19.3764 1.68186C17.2115 -0.560619 13.6964 -0.560619 11.5315 1.68186L10.4812 2.792L9.43098 1.70406C7.26614 -0.560619 3.75096 -0.560619 1.60755 1.68186C0.557285 2.76979 0 4.21297 0 5.74496C0 7.27695 0.578719 8.72013 1.60755 9.80806L10.4812 19L19.3764 9.78586ZM1.37178 5.74496C1.37178 4.59042 1.80046 3.52469 2.59352 2.72539C3.40801 1.88168 4.45828 1.45983 5.50855 1.45983C6.55882 1.45983 7.60909 1.88168 8.42358 2.72539L10.4812 4.83465L12.5389 2.70318C14.1465 1.03798 16.7829 1.03798 18.369 2.70318C19.1406 3.50248 19.5907 4.56821 19.5907 5.72276C19.5907 6.8773 19.162 7.94303 18.369 8.74233L10.4812 16.9351L2.59352 8.76453C1.82189 7.94303 1.37178 6.8773 1.37178 5.74496Z"
+              fill="black"
+            />
+          </svg>
+        </h3>
+      </div>
+      <div class="element">
+        <img
+          class="element__image"
+          src="./images/Lago Louise.png"
+          alt="asdkma"
+        />
+        <h3 class="element__name">
+          Lago Louise
+          <svg
+            width="21"
+            height="19"
+            class="element__heart"
+            viewBox="0 0 21 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.3764 9.78586C21.5412 7.54338 21.5412 3.90213 19.3764 1.68186C17.2115 -0.560619 13.6964 -0.560619 11.5315 1.68186L10.4812 2.792L9.43098 1.70406C7.26614 -0.560619 3.75096 -0.560619 1.60755 1.68186C0.557285 2.76979 0 4.21297 0 5.74496C0 7.27695 0.578719 8.72013 1.60755 9.80806L10.4812 19L19.3764 9.78586ZM1.37178 5.74496C1.37178 4.59042 1.80046 3.52469 2.59352 2.72539C3.40801 1.88168 4.45828 1.45983 5.50855 1.45983C6.55882 1.45983 7.60909 1.88168 8.42358 2.72539L10.4812 4.83465L12.5389 2.70318C14.1465 1.03798 16.7829 1.03798 18.369 2.70318C19.1406 3.50248 19.5907 4.56821 19.5907 5.72276C19.5907 6.8773 19.162 7.94303 18.369 8.74233L10.4812 16.9351L2.59352 8.76453C1.82189 7.94303 1.37178 6.8773 1.37178 5.74496Z"
+              fill="black"
+            />
+          </svg>
+        </h3>
+      </div>
+      <div class="element">
+        <img
+          class="element__image"
+          src="./images/Montañas Calvas.png"
+          alt="asdkma"
+        />
+        <h3 class="element__name">
+          Montañas Calvas
+          <svg
+            width="21"
+            height="19"
+            class="element__heart"
+            viewBox="0 0 21 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.3764 9.78586C21.5412 7.54338 21.5412 3.90213 19.3764 1.68186C17.2115 -0.560619 13.6964 -0.560619 11.5315 1.68186L10.4812 2.792L9.43098 1.70406C7.26614 -0.560619 3.75096 -0.560619 1.60755 1.68186C0.557285 2.76979 0 4.21297 0 5.74496C0 7.27695 0.578719 8.72013 1.60755 9.80806L10.4812 19L19.3764 9.78586ZM1.37178 5.74496C1.37178 4.59042 1.80046 3.52469 2.59352 2.72539C3.40801 1.88168 4.45828 1.45983 5.50855 1.45983C6.55882 1.45983 7.60909 1.88168 8.42358 2.72539L10.4812 4.83465L12.5389 2.70318C14.1465 1.03798 16.7829 1.03798 18.369 2.70318C19.1406 3.50248 19.5907 4.56821 19.5907 5.72276C19.5907 6.8773 19.162 7.94303 18.369 8.74233L10.4812 16.9351L2.59352 8.76453C1.82189 7.94303 1.37178 6.8773 1.37178 5.74496Z"
+              fill="black"
+            />
+          </svg>
+        </h3>
+      </div>
+      <div class="element">
+        <img class="element__image" src="./images/Latemar.png" alt="asdkma" />
+        <h3 class="element__name">
+          Latemar
+          <svg
+            width="21"
+            height="19"
+            class="element__heart"
+            viewBox="0 0 21 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.3764 9.78586C21.5412 7.54338 21.5412 3.90213 19.3764 1.68186C17.2115 -0.560619 13.6964 -0.560619 11.5315 1.68186L10.4812 2.792L9.43098 1.70406C7.26614 -0.560619 3.75096 -0.560619 1.60755 1.68186C0.557285 2.76979 0 4.21297 0 5.74496C0 7.27695 0.578719 8.72013 1.60755 9.80806L10.4812 19L19.3764 9.78586ZM1.37178 5.74496C1.37178 4.59042 1.80046 3.52469 2.59352 2.72539C3.40801 1.88168 4.45828 1.45983 5.50855 1.45983C6.55882 1.45983 7.60909 1.88168 8.42358 2.72539L10.4812 4.83465L12.5389 2.70318C14.1465 1.03798 16.7829 1.03798 18.369 2.70318C19.1406 3.50248 19.5907 4.56821 19.5907 5.72276C19.5907 6.8773 19.162 7.94303 18.369 8.74233L10.4812 16.9351L2.59352 8.76453C1.82189 7.94303 1.37178 6.8773 1.37178 5.74496Z"
+              fill="black"
+            />
+          </svg>
+        </h3>
+      </div>
+      <div class="element">
+        <img class="element__image" src="./images/Vanoise.png" alt="asdkma" />
+        <h3 class="element__name">
+          Vanoise Park
+          <svg
+            width="21"
+            height="19"
+            class="element__heart"
+            viewBox="0 0 21 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.3764 9.78586C21.5412 7.54338 21.5412 3.90213 19.3764 1.68186C17.2115 -0.560619 13.6964 -0.560619 11.5315 1.68186L10.4812 2.792L9.43098 1.70406C7.26614 -0.560619 3.75096 -0.560619 1.60755 1.68186C0.557285 2.76979 0 4.21297 0 5.74496C0 7.27695 0.578719 8.72013 1.60755 9.80806L10.4812 19L19.3764 9.78586ZM1.37178 5.74496C1.37178 4.59042 1.80046 3.52469 2.59352 2.72539C3.40801 1.88168 4.45828 1.45983 5.50855 1.45983C6.55882 1.45983 7.60909 1.88168 8.42358 2.72539L10.4812 4.83465L12.5389 2.70318C14.1465 1.03798 16.7829 1.03798 18.369 2.70318C19.1406 3.50248 19.5907 4.56821 19.5907 5.72276C19.5907 6.8773 19.162 7.94303 18.369 8.74233L10.4812 16.9351L2.59352 8.76453C1.82189 7.94303 1.37178 6.8773 1.37178 5.74496Z"
+              fill="black"
+            />
+          </svg>
+        </h3>
+      </div>
+      <div class="element">
+        <img
+          class="element__image"
+          src="./images/Lago di Braies.png"
+          alt="asdkma"
+        />
+        <h3 class="element__name">Lago di Braies</h3>
+        <svg
+          width="21"
+          height="19"
+          class="element__heart"
+          viewBox="0 0 21 19"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.3764 9.78586C21.5412 7.54338 21.5412 3.90213 19.3764 1.68186C17.2115 -0.560619 13.6964 -0.560619 11.5315 1.68186L10.4812 2.792L9.43098 1.70406C7.26614 -0.560619 3.75096 -0.560619 1.60755 1.68186C0.557285 2.76979 0 4.21297 0 5.74496C0 7.27695 0.578719 8.72013 1.60755 9.80806L10.4812 19L19.3764 9.78586ZM1.37178 5.74496C1.37178 4.59042 1.80046 3.52469 2.59352 2.72539C3.40801 1.88168 4.45828 1.45983 5.50855 1.45983C6.55882 1.45983 7.60909 1.88168 8.42358 2.72539L10.4812 4.83465L12.5389 2.70318C14.1465 1.03798 16.7829 1.03798 18.369 2.70318C19.1406 3.50248 19.5907 4.56821 19.5907 5.72276C19.5907 6.8773 19.162 7.94303 18.369 8.74233L10.4812 16.9351L2.59352 8.76453C1.82189 7.94303 1.37178 6.8773 1.37178 5.74496Z"
+            fill="black"
+          />
+        </svg>
+      </div>
+    </section>
+    <footer class="footer">
+      <h4 class="footer__copyright">© 2021 Alrededor de los EEUU</h4>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.element__heart {
+  position: absolute;
+  bottom: 30px;
+  right: 18px;
+}
+.element__heart:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

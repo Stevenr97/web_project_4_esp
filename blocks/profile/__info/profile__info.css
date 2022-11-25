@@ -1,0 +1,15 @@
+.profile__info {
+  margin: 0;
+  display: grid;
+  width: fit-content;
+  height: auto;
+  grid-area: info;
+  grid-template-areas:
+    "name edit_button"
+    "descripcion descripcion";
+}
+@media screen and (max-width: 879px) {
+  .profile__info {
+    margin: 30px auto 36px auto;
+  }
+}

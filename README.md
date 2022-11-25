@@ -1,16 +1,19 @@
 # Proyecto 4: Alrededor de los Estados Unidos
 
-### Descripción general
+**Introducción**
 
-* Figma
-* Imágenes
+Pagina que muestra un perfil con información del usuario (editable) posts con imagenes, nombres y permite reaccionar con un corazón.
+Para este proyecto se utilizó:
 
-**Figma**
+1. HTML
+2. CSS
+3. Javascript
+   Enlace a la pagina: https://stevenr97.github.io/web_project_3_esp/
 
-* [Enlace al proyecto en Figma](https://www.figma.com/file/LDMgqWesKpQkIwhOfEBuTS/WEB%2C-Sprint-5%3A-Around-The-U.S.-%7C-desktop-%2B-mobile?node-id=0%3A1)
+**Planes Futuros para el proyecto**
 
-**Imágenes**
+Para el futuro se planea:
 
-A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido. 
+1. Conectar a una base de datos para que la información se actualice.
 
-¡Esperamos que te diviertas con JavaScript!
+Para estos cambios se utilizará MySQL y HTML.

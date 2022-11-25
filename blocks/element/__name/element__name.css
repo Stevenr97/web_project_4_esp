@@ -1,0 +1,10 @@
+.element__name {
+  margin: 21px 16px 31px 21px;
+  color: #000000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 218px;
+  font-weight: 900;
+  font-size: 24px;
+}

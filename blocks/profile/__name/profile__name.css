@@ -1,0 +1,16 @@
+.profile__name {
+  margin: 0px 18px 18px 0px;
+  text-align: left;
+  font-size: 42px;
+  grid-area: name;
+  height: auto;
+  align-self: end;
+  color: white;
+}
+@media screen and (max-width: 879px) {
+  .profile__name {
+    margin: 0px 10px 14px 0px;
+    font-size: 22px;
+    text-align: center;
+  }
+}
