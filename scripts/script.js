@@ -25,6 +25,11 @@ function heart() {
 function showPopUp() {
   let popup = document.querySelector(".popup");
   popup.classList.toggle("popup__opened");
+  document.getElementById("nombre").value =
+    document.querySelector(".profile__name")["textContent"];
+  document.getElementById("acerca").value = document.querySelector(
+    ".profile__descripcion"
+  )["textContent"];
 }
 
 document
