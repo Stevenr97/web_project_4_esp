@@ -80,7 +80,7 @@ function displayCards() {
             </svg>
           </h3>
           <div
-            class="imagepopup popup__opened"
+            class="imagepopup popup-opened"
             style="opacity: 0; visibility: hidden"
           >
             <div class="imagepopup__container">
@@ -152,7 +152,7 @@ document
 
 function showPopUpcreate() {
   let popupvisible = this.parentElement.querySelector(
-    ".popup-create.popup__opened"
+    ".popup-create.popup-opened"
   );
   popupvisible.style.visibility = "visible";
   popupvisible.style.opacity = "1";
@@ -167,7 +167,7 @@ document
   .addEventListener("click", showPopUpcreate);
 
 function showPopUpimage() {
-  let popupvisible = this.parentElement.querySelector(".popup__opened");
+  let popupvisible = this.parentElement.querySelector(".popup-opened");
   popupvisible.style.visibility = "visible";
   popupvisible.style.opacity = "1";
 }
@@ -194,8 +194,8 @@ function changeContent() {
   if (acerca) {
     document.querySelector(".profile__descripcion")["textContent"] = acerca;
   }
-  document.querySelector(".popup__opened").style.visibility = "hidden";
-  document.querySelector(".popup__opened").style.opacity = "0";
+  document.querySelector(".popup-opened").style.visibility = "hidden";
+  document.querySelector(".popup-opened").style.opacity = "0";
 }
 
 document
@@ -232,9 +232,9 @@ function createCard() {
   }
   displayCards();
 
-  document.querySelector(".popup-create.popup__opened").style.visibility =
+  document.querySelector(".popup-create.popup-opened").style.visibility =
     "hidden";
-  document.querySelector(".popup-create.popup__opened").style.opacity = "0";
+  document.querySelector(".popup-create.popup-opened").style.opacity = "0";
 }
 
 document
