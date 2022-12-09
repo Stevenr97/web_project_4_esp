@@ -1,0 +1,18 @@
+.popup-create__close {
+  margin-left: 247px;
+  margin-bottom: 13.42px;
+  transform: revert;
+}
+.popup-create__close:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 880px) {
+  .popup-create__close {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0px;
+    margin-left: 470px;
+  }
+}
